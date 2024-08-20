@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.10.35122.118
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ncmsharp_cli", "ncmsharp_cli\ncmsharp_cli.csproj", "{1339DD78-0CB3-47CA-A618-3B07D1B76D2F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ncmdump", "ncmdump\ncmdump.csproj", "{170E7B05-89AC-4448-9C0C-0403DE01084E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1339DD78-0CB3-47CA-A618-3B07D1B76D2F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{1339DD78-0CB3-47CA-A618-3B07D1B76D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{1339DD78-0CB3-47CA-A618-3B07D1B76D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{1339DD78-0CB3-47CA-A618-3B07D1B76D2F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{170E7B05-89AC-4448-9C0C-0403DE01084E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{170E7B05-89AC-4448-9C0C-0403DE01084E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{170E7B05-89AC-4448-9C0C-0403DE01084E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{170E7B05-89AC-4448-9C0C-0403DE01084E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78A5C0FE-EB56-4BBC-8ED9-AFA2E1B859DF}
+	EndGlobalSection
+EndGlobal
