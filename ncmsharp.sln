@@ -5,7 +5,7 @@ VisualStudioVersion = 17.10.35122.118
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ncmsharp_cli", "ncmsharp_cli\ncmsharp_cli.csproj", "{1339DD78-0CB3-47CA-A618-3B07D1B76D2F}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ncmdump", "ncmdump\ncmdump.csproj", "{170E7B05-89AC-4448-9C0C-0403DE01084E}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ncmdump_lib", "ncmdump_lib\ncmdump_lib.csproj", "{D3F68C30-BACE-4505-B820-5DDD7D22BE55}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,10 +17,10 @@ Global
 		{1339DD78-0CB3-47CA-A618-3B07D1B76D2F}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{1339DD78-0CB3-47CA-A618-3B07D1B76D2F}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{1339DD78-0CB3-47CA-A618-3B07D1B76D2F}.Release|Any CPU.Build.0 = Release|Any CPU
-		{170E7B05-89AC-4448-9C0C-0403DE01084E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{170E7B05-89AC-4448-9C0C-0403DE01084E}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{170E7B05-89AC-4448-9C0C-0403DE01084E}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{170E7B05-89AC-4448-9C0C-0403DE01084E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D3F68C30-BACE-4505-B820-5DDD7D22BE55}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D3F68C30-BACE-4505-B820-5DDD7D22BE55}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D3F68C30-BACE-4505-B820-5DDD7D22BE55}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D3F68C30-BACE-4505-B820-5DDD7D22BE55}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
