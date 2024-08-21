@@ -2,6 +2,8 @@
 
 ## CMake
 
+Under the directory `ncmdump`:
+
 ### Windows MSVC
  
 ```shell
