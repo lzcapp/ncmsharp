@@ -1,7 +1,4 @@
-﻿using System;
-using System.Threading.Tasks;
-
-namespace ncmsharp_cli {
+﻿namespace ncmsharp_cli {
     internal class Program {
         static void Main(string[] args) {
             // 文件名
