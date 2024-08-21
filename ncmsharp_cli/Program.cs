@@ -36,10 +36,9 @@ namespace ncmsharp_cli {
                 for (var i = 0; i < list.Count; i++) {
                     list[i] = list[i].TrimStart(trimChars).TrimEnd(trimChars).Trim();
                     var filePath = list[i];
-                    if ((File.GetAttributes(filePath) & FileAttributes.Directory) == FileAttributes.Directory) {
-                        DirectoryInfo directoryInfo = new(filePath);
-                        fileList.AddRange(GetFiles(directoryInfo));
-                    }
+                    if ((File.GetAttributes(filePath) & FileAttributes.Directory) != FileAttributes.Directory) continue;
+                    DirectoryInfo directoryInfo = new(filePath);
+                    fileList.AddRange(GetFiles(directoryInfo));
                 }
 
                 if (fileList.Count > 0) {
@@ -75,7 +74,7 @@ namespace ncmsharp_cli {
             }
             List<string> fileList = [];
             var fsInfos = dirInfo.GetFileSystemInfos();
-            foreach (FileSystemInfo fsInfo in fsInfos) {
+            foreach (var fsInfo in fsInfos) {
                 if (fsInfo is DirectoryInfo subDirInfo) {
                     fileList.AddRange(GetFiles(subDirInfo));
                 } else {
