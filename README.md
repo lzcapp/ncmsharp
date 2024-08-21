@@ -1,6 +1,6 @@
 # ncmsharp
 
-## CMake
+## Build the Library File
 
 Under the directory `ncmdump`:
 
