@@ -44,18 +44,14 @@ namespace ncmsharp_cli {
                 if (fileList.Count > 0) {
                     var totalCount = fileList.Count;
                     Console.WriteLine("Totally " + totalCount + " Files.");
-                    var (_, top) = Console.GetCursorPosition();
                     for (var index = 0; index < totalCount; index++) {
                         var filePath = fileList[index];
                         var status = ProcessFile(filePath);
-                        Console.SetCursorPosition(0, top);
-                        Console.Write(new string(' ', Console.WindowWidth));
-                        Console.SetCursorPosition(0, top);
                         var percentage = index == 0 ? 0 : (double)index / totalCount * 100;
                         if (index < totalCount - 1) {
-                            Console.Write("[" + percentage.ToString("F2") + "%] " + filePath + " " + (status ? "√" : "×"));
+                            Console.WriteLine("[" + percentage.ToString("F2") + "%] " + filePath + " " + (status ? "√" : "×"));
                         } else {
-                            Console.Write("[100%] " + (status ? "√" : "×"));
+                            Console.WriteLine("[100%] 转换完成");
                         }
                     }
                 }
@@ -63,7 +59,6 @@ namespace ncmsharp_cli {
                 // ignored
             }
 
-            Console.WriteLine();
             Console.WriteLine("Press Any Key To Exit...");
             Console.ReadKey();
         }
